@@ -17,8 +17,11 @@
   },
   "homepage": "https://github.com/raevindunson/employee-tracker#readme",
   "dependencies": {
+    "2": "^3.0.0",
     "console.table": "^0.10.0",
     "inquirer": "^8.1.2",
+    "mysql": "^2.18.1",
     "mysql2": "^2.3.0"
-  }
+  },
+  "devDependencies": {}
 }
