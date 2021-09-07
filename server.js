@@ -49,5 +49,17 @@ function AddEmployee() {
     Connection.Query(Query, function(err, res) {
         console.table(res);
         console.log("Emplloyee Added!");
-    })
+    });
+}
+
+function RemoveEmployee() {
+    console.log("Remove Employee");
+}
+
+function UpdateEmployee() {
+    console.log("Update Employees");
+}
+
+function Quit() {
+    console.log("Quit");
 }
